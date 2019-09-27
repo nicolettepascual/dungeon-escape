@@ -26,14 +26,6 @@ public class Inventory{
                 WrongEndState = new WrongEndState(handler);  
                 RightEndState = new RightEndState(handler);
                 
-                /*BaseQueue.add(0);
-                BaseQueue.add(1);
-                BaseQueue.add(2);
-                BaseQueue.add(3);
-                BaseQueue.add(4);
-                BaseQueue.add(5);
-                BaseQueue.add(6);*/
-                
                 for(int i=0; i <= 6; i++){
                     BaseQueue.add(i);
                 }
